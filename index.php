@@ -16,20 +16,20 @@
     <div class="logo">
     <img src="img/logo.png" alt="">
     <div class="flex">
-    <h1 >Anjuman-e-najmi</h1>
-    <h3 class="heading">Hakimi Mohalla Ujjain</h3>
+    <h1 class="heading">Anjuman-e-najmi</h1>
+    <h5 class="">Hakimi Mohalla, Ujjain</h5>
     </div>
 </div>
    
    
    <div class="loginbox">
-<!--     <img src="" alt="" class="avatar">-->
+    <h1>login for majlis relay</h1>
     
      <form action="login.php" method="POST">
          
-         <input type="text" placeholder="Enter ITS" name="its" required> 
+         <input type="text" placeholder="Enter ITS" name="its"> 
          
-         <input type="password" placeholder="Enter Password" name="password" required>
+         <input type="password" placeholder="Enter Password" name="password">
          <br><br>
          <input type="submit" value="Login" name="submit">
          <br><br>
